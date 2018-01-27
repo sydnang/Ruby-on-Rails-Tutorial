@@ -6,22 +6,22 @@ If the page asks for a username and password, the username is "sydney" and the p
 
 ![Screenshot](app_screenshot.png)
 
-##Models
+## Models
 We have an article model, which is comprised of a title and text.
 
 
-##Controllers
+## Controllers
 "Receive specific requests for the application."
 Take user input and call appropriate methods. 
 
-##Views
+## Views
 Display output (comments, articles).
 
-#Database Operations (CRUD)
+# Database Operations (CRUD)
 
-##Create
+## Create
 The articles controller takes user input and calls methods to create and save a new article.
 
-##Read
+## Read
 The articles controller lists all of our articles with an index method and displays them with a show method.
 These are shown to users through views, which contain links to actions in controllers.
